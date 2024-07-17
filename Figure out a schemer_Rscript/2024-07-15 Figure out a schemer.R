@@ -177,12 +177,12 @@ show(fools_char_spec_v_df)
 
 ##[4.1.3.] create two tables with character specific values
 
-###[4.1.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[4.1.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 fools_char_sp_df <- select(fools_char_spec_v_df,
                            c(numOfWords, numOfSpeechActs, numOfScenes))
 show(fools_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 fools_char_sp_df <- arrange(fools_char_sp_df,
                             desc(numOfWords),
                             desc(numOfSpeechActs))
@@ -507,12 +507,12 @@ show(traveller_char_spec_v_df)
 
 ##[4.2.3.] create two tables with character specific values
 
-###[4.2.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[4.2.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 traveller_char_sp_df <- select(traveller_char_spec_v_df,
                                c(numOfWords, numOfSpeechActs, numOfScenes))
 show(traveller_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 traveller_char_sp_df <- arrange(traveller_char_sp_df,
                                 desc(numOfWords),
                                 desc(numOfSpeechActs))
@@ -837,12 +837,12 @@ show(case_char_spec_v_df)
 
 ##[4.3.3.] create two tables with character specific values
 
-###[4.3.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[4.3.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 case_char_sp_df <- select(case_char_spec_v_df,
                           c(numOfWords, numOfSpeechActs, numOfScenes))
 show(case_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 case_char_sp_df <- arrange(case_char_sp_df,
                            desc(numOfWords),
                            desc(numOfSpeechActs))
@@ -1167,12 +1167,12 @@ show(man_char_spec_v_df)
 
 ##[4.4.3.] create two tables with character specific values
 
-###[4.4.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[4.4.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 man_char_sp_df <- select(man_char_spec_v_df,
                          c(numOfWords, numOfSpeechActs, numOfScenes))
 show(man_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 man_char_sp_df <- arrange(man_char_sp_df,
                           desc(numOfWords),
                           desc(numOfSpeechActs))
@@ -1497,12 +1497,12 @@ show(volpone_char_spec_v_df)
 
 ##[4.5.3.] create two tables with character specific values
 
-###[4.5.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[4.5.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 volpone_char_sp_df <- select(volpone_char_spec_v_df,
                              c(numOfWords, numOfSpeechActs, numOfScenes))
 show(volpone_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 volpone_char_sp_df <- arrange(volpone_char_sp_df,
                               desc(numOfWords),
                               desc(numOfSpeechActs))
@@ -1827,12 +1827,12 @@ show(alchemist_char_spec_v_df)
 
 ##[4.6.3.] create two tables with character specific values
 
-###[4.6.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[4.6.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 alchemist_char_sp_df <- select(alchemist_char_spec_v_df,
                                c(numOfWords, numOfSpeechActs, numOfScenes))
 show(alchemist_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 alchemist_char_sp_df <- arrange(alchemist_char_sp_df,
                                 desc(numOfWords),
                                 desc(numOfSpeechActs))
@@ -2157,12 +2157,12 @@ show(ralph_char_spec_v_df)
 
 ##[4.7.3.] create two tables with character specific values
 
-###[4.7.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[4.7.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 ralph_char_sp_df <- select(ralph_char_spec_v_df,
                            c(numOfWords, numOfSpeechActs, numOfScenes))
 show(ralph_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 ralph_char_sp_df <- arrange(ralph_char_sp_df,
                             desc(numOfWords),
                             desc(numOfSpeechActs))
@@ -2489,12 +2489,12 @@ show(barbier_char_spec_v_df)
 
 ##[5.1.3.] create two tables with character specific values
 
-###[5.1.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[5.1.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 barbier_char_sp_df <- select(barbier_char_spec_v_df,
                              c(numOfWords, numOfSpeechActs, numOfScenes))
 show(barbier_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 barbier_char_sp_df <- arrange(barbier_char_sp_df,
                               desc(numOfWords),
                               desc(numOfSpeechActs))
@@ -2808,12 +2808,12 @@ show(pedant_char_spec_v_df)
 
 ##[5.2.3.] create two tables with character specific values
 
-###[5.2.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[5.2.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 pedant_char_sp_df <- select(pedant_char_spec_v_df,
                             c(numOfWords, numOfSpeechActs, numOfScenes))
 show(pedant_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 pedant_char_sp_df <- arrange(pedant_char_sp_df,
                              desc(numOfWords),
                              desc(numOfSpeechActs))
@@ -3124,12 +3124,12 @@ show(capitan_char_spec_v_df)
 
 ##[5.3.3.] create two tables with character specific values
 
-###[5.3.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[5.3.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 capitan_char_sp_df <- select(capitan_char_spec_v_df,
                              c(numOfWords, numOfSpeechActs, numOfScenes))
 show(capitan_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 capitan_char_sp_df <- arrange(capitan_char_sp_df,
                               desc(numOfWords),
                               desc(numOfSpeechActs))
@@ -3444,12 +3444,12 @@ show(etourdi_char_spec_v_df)
 
 ##[5.4.3.] create two tables with character specific values
 
-###[5.4.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[5.4.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 etourdi_char_sp_df <- select(etourdi_char_spec_v_df,
                              c(numOfWords, numOfSpeechActs, numOfScenes))
 show(etourdi_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 etourdi_char_sp_df <- arrange(etourdi_char_sp_df,
                               desc(numOfWords),
                               desc(numOfSpeechActs))
@@ -3764,12 +3764,12 @@ show(scapin_char_spec_v_df)
 
 ##[5.5.3.] create two tables with character specific values
 
-###[5.5.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[5.5.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 scapin_char_sp_df <- select(scapin_char_spec_v_df,
                             c(numOfWords, numOfSpeechActs, numOfScenes))
 show(scapin_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 scapin_char_sp_df <- arrange(scapin_char_sp_df,
                              desc(numOfWords),
                              desc(numOfSpeechActs))
@@ -4084,12 +4084,12 @@ show(retour_char_spec_v_df)
 
 ##[5.6.3.] create two tables with character specific values
 
-###[5.6.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[5.6.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 retour_char_sp_df <- select(retour_char_spec_v_df,
                             c(numOfWords, numOfSpeechActs, numOfScenes))
 show(retour_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 retour_char_sp_df <- arrange(retour_char_sp_df,
                              desc(numOfWords),
                              desc(numOfSpeechActs))
@@ -4406,12 +4406,12 @@ show(serenade_char_spec_v_df)
 
 ##[5.7.3.] create two tables with character specific values
 
-###[5.7.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[5.7.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 serenade_char_sp_df <- select(serenade_char_spec_v_df,
                               c(numOfWords, numOfSpeechActs, numOfScenes))
 show(serenade_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 serenade_char_sp_df <- arrange(serenade_char_sp_df,
                                desc(numOfWords),
                                desc(numOfSpeechActs))
@@ -4726,12 +4726,12 @@ show(captifs_char_spec_v_df)
 
 ##[5.8.3.] create two tables with character specific values
 
-###[5.8.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[5.8.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 captifs_char_sp_df <- select(captifs_char_spec_v_df,
                              c(numOfWords, numOfSpeechActs, numOfScenes))
 show(captifs_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 captifs_char_sp_df <- arrange(captifs_char_sp_df,
                               desc(numOfWords),
                               desc(numOfSpeechActs))
@@ -5048,12 +5048,12 @@ show(cassaria_char_spec_v_df)
 
 ##[6.1.3.] create two tables with character specific values
 
-###[6.1.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[6.1.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 cassaria_char_sp_df <- select(cassaria_char_spec_v_df,
                               c(numOfWords, numOfSpeechActs, numOfScenes))
 show(cassaria_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 cassaria_char_sp_df <- arrange(cassaria_char_sp_df,
                                desc(numOfWords),
                                desc(numOfSpeechActs))
@@ -5378,12 +5378,12 @@ show(suppositi_char_spec_v_df)
 
 ##[6.2.3.] create two tables with character specific values
 
-###[6.2.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[6.2.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 suppositi_char_sp_df <- select(suppositi_char_spec_v_df,
                                c(numOfWords, numOfSpeechActs, numOfScenes))
 show(suppositi_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 suppositi_char_sp_df <- arrange(suppositi_char_sp_df,
                                 desc(numOfWords),
                                 desc(numOfSpeechActs))
@@ -5709,12 +5709,12 @@ show(lena_char_spec_v_df)
 
 ##[6.3.3.] create two tables with character specific values
 
-###[6.3.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[6.3.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 lena_char_sp_df <- select(lena_char_spec_v_df,
                           c(numOfWords, numOfSpeechActs, numOfScenes))
 show(lena_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 lena_char_sp_df <- arrange(lena_char_sp_df,
                            desc(numOfWords),
                            desc(numOfSpeechActs))
@@ -6039,12 +6039,12 @@ show(inavvertito_char_spec_v_df)
 
 ##[6.4.3.] create two tables with character specific values
 
-###[6.4.3.1.] create table with count-based measures for each character
-####extract table with count-based measures for each character
+###[6.4.3.1.] create table with count-based values for each character
+####extract table with count-based values for each character
 inavvertito_char_sp_df <- select(inavvertito_char_spec_v_df,
                                  c(numOfWords, numOfSpeechActs, numOfScenes))
 show(inavvertito_char_sp_df)
-####arrange rows by number of scenes
+####arrange rows by number of words and number of speech acts
 inavvertito_char_sp_df <- arrange(inavvertito_char_sp_df,
                                   desc(numOfWords),
                                   desc(numOfSpeechActs))
