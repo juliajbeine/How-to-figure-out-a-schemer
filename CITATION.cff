@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+authors:
+- family-names: "Beine"
+  given-names: "Julia Jennifer"
+  orcid: "https://orcid.org/0000-0001-8979-8706"
+title: "How to Figure out a Schemer. Tracing Types of Roman Comedy in Classical Receptions through Digital Methods"
+version: 1.0.0
+doi: 10.5281/zenodo.13091607
+date-released: 2024-07-27
+url: "https://doi.org/10.5281/zenodo.13091607"
+preferred-citation:
+  type: data
+  authors:
+  - family-names: "Beine"
+  given-names: "Julia Jennifer"
+  orcid: "https://orcid.org/0000-0001-8979-8706"
+  doi: "10.5281/zenodo.13091607"
+  title: "How to Figure out a Schemer. Tracing Types of Roman Comedy in Classical Receptions through Digital Methods. Dataset"
+  year: 2024
